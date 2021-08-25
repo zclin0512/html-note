@@ -26,6 +26,6 @@ export default request
 
 // 使用方法
 // get请求
-request.get("/").then(res=>{})
-// post请求
+request.get("/user?id=123&passwd=456").then(res=>{})
+// post请求,其中data需要为json格式
 request.post("/",data).then(res=>{}）
